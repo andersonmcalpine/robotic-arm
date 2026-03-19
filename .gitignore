@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ODrive
+odrive-fw-*.hex
+*.dfu
+odrive_config.json
+
+# Secrets / local config
+.env
+config.local.*
+
+# OS
+.DS_Store
+Thumbs.db
